@@ -1,0 +1,98 @@
+[
+ {
+   "ID": 0,
+   "Periode": "03/2019 – 05/2019",
+   "MatieresCompetences": "Développeur de sites et d’applications Web et Web mobile – 2 mois",
+   "Certificat": "Préparations pour le Titre Professionnel d'État \"Développeur Web et Web Mobile\", RNCP Niveau III (BAC+2)",
+   "Institution": "La Manu - L'École des métiers du Numérique, 70 rue des Jacobins 80090 Amiens (France)",
+   "Focus": ""
+ },
+ {
+   "ID": 1,
+   "Periode": "10/2013 →05/2015",
+   "MatieresCompetences": "Langue française",
+   "Certificat": "Niveau TCF compreéhension et expression orale B2",
+   "Institution": "Institut Picard de langues, 8 Rue de l'Écuyer, Amiens (France)",
+   "Focus": ""
+ },
+ {
+   "ID": 2,
+   "Periode": "07/2012 – 07/2013",
+   "MatieresCompetences": "Géodésie physique – Systèmes de référence – Système Molodenski",
+   "Certificat": "doctorante–sans fréquence ",
+   "Institution": "Université de Stuttgart / Faculté de Géodésie et Géo-informatique (Doctorat en sciences) Geschwister-Scholl-Str. 24D, 70174 Stuttgart (Allemagne)",
+   "Focus": ""
+ },
+ {
+   "ID": 3,
+   "Periode": "10/2012 →05/2013",
+   "MatieresCompetences": "Langue française",
+   "Certificat": "Niveau I3 →",
+   "Institution": "Institut Français Bucarest Bd. Dacia nr. 77, 020051Bucarest (Roumanie)",
+   "Focus": ""
+ },
+ {
+   "ID": 4,
+   "Periode": "08/2012",
+   "MatieresCompetences": "Formation des formateurs",
+   "Certificat": "Diplôme de participation aux cours de formation professionnelle",
+   "Institution": "A.N.C.P.I. (l’Agence Nationale de Cadastre et de Publicité Immobilière) en collaboration avec CESAR –Supplémentassions du soutien de l’UE pour la restructuration de l’agriculture, Projet financé par la Banque Internationale pour la Reconstruction et le Développement ",
+   "Focus": ""
+ },
+ {
+   "ID": 5,
+   "Periode": "07/2012 - 08/2012, 06/2013 – 07/2013",
+   "MatieresCompetences": "Cotes normales, cotes Molodenski",
+   "Certificat": "Boursière recherche Alexander von Humboldt Stiftung",
+   "Institution": "Alexander von Humboldt Stiftung (Bourse de recherche) Jean-Paul-Str. 12, 53173 Bonn (Allemagne)",
+   "Focus": ""
+ },
+ {
+   "ID": 6,
+   "Periode": "11/2011 - 12/2011",
+   "MatieresCompetences": "Communication, gestion et médiation des conflits",
+   "Certificat": "Diplôme de participation aux cours de formation professionnelle",
+   "Institution": "A.N.C.P.I. (l’Agence Nationale de Cadastre et de Publicité Immobilière) en collaboration avec l’ECO et le Centre Régional de Facilitation et Médiation",
+   "Focus": ""
+ },
+ {
+   "ID": 7,
+   "Periode": "09/2009 - 02/2010",
+   "MatieresCompetences": "Langue anglaise",
+   "Certificat": "Niveau 3C",
+   "Institution": "British Council Bucarest Calea Dorobanților 14, 010572 Bucarest (Roumanie)",
+   "Focus": ""
+ },
+ {
+   "ID": 8,
+   "Periode": "11/2008 ",
+   "MatieresCompetences": "ArcGIS Desktop I,II, III, Conception  et Création Géodatabase",
+   "Certificat": "Diplôme de fin d’études",
+   "Institution": "ESRI (Roumanie)",
+   "Focus": ""
+ },
+ {
+   "ID": 9,
+   "Periode": "10/2001 - 06/2008",
+   "MatieresCompetences": "Géodésie, Photogrammétrie, Navigations, Ingénierie géodésique, Télédétection",
+   "Certificat": "Diplôme d’Ingénieur (Etudes de Licence + Master)",
+   "Institution": "Université de Stuttgart / Faculté de génie aérospatial et de géodésie / Géodésie et Géo-informatique  Postfach 10 60 37, 70049 Stuttgart (Allemagne)",
+   "Focus": "Projet d’étude: L’analyse des performances de mesure de phase pour les récepteurs GPS à bas prix; Mémoire: Réseaux géodésiques roumains et la transformation des coordonnées (transformation curviligne des données, coordonnées conformes, WGS84, UTM / Gauss-Krüger, WGD2000, Stéréographique 1970)."
+ },
+ {
+   "ID": 10,
+   "Periode": "02/2002 - 09/2003",
+   "MatieresCompetences": "Cours de langue allemande",
+   "Certificat": "DSH - Examen de langue allemande pour l’entrée à l’université",
+   "Institution": "Ökumenisches Zentrum Allmandring 6, 70569 Stuttgart (Allemagne)",
+   "Focus": ""
+ },
+ {
+   "ID": 11,
+   "Periode": "10/1998 - 09/2001 ",
+   "MatieresCompetences": "Géodésie, topographie, photogrammétrie, topographie d’ingénierie",
+   "Certificat": "Fini trois année d’études",
+   "Institution": "Université Technique de Constructions Bucarest / Faculté de Géodésie  122-124 Bd. Lacul Tei, 020396 Bucarest (Roumanie)",
+   "Focus": ""
+ }
+]
