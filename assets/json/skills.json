@@ -1,0 +1,410 @@
+[
+ {
+   "ID": 0,
+   "Title": "QGIS",
+   "Rating": 4,
+   "Class": "Logiciels SIG",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 1,
+   "Title": "ArcGIS",
+   "Rating": 4,
+   "Class": "Logiciels SIG",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 2,
+   "Title": "Microstation",
+   "Rating": 2,
+   "Class": "Logiciels SIG",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 3,
+   "Title": "Atlas",
+   "Rating": 2,
+   "Class": "Logiciels SIG",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 4,
+   "Title": "Pacific",
+   "Rating": 2,
+   "Class": "Logiciels SIG",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 5,
+   "Title": "Mercator SIG-ELEC",
+   "Rating": 2,
+   "Class": "Logiciels SIG",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 6,
+   "Title": "AutoCAD",
+   "Rating": 2,
+   "Class": "Logiciels CAD",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 7,
+   "Title": "Trimble Business Center",
+   "Rating": 5,
+   "Class": "Logiciels GNSS",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 8,
+   "Title": "Leica Geo Office Combined",
+   "Rating": 5,
+   "Class": "Logiciels GNSS",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 9,
+   "Title": "Topcon Tools",
+   "Rating": 5,
+   "Class": "Logiciels GNSS",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 10,
+   "Title": "Javad Giodis",
+   "Rating": 5,
+   "Class": "Logiciels GNSS",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 11,
+   "Title": "SkiPro",
+   "Rating": 3,
+   "Class": "Logiciels GNSS",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 12,
+   "Title": "Applanix PosPac",
+   "Rating": 2,
+   "Class": "Logiciels GNSS",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 13,
+   "Title": "Panda",
+   "Rating": 2,
+   "Class": "Logiciels GNSS",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 14,
+   "Title": "LISA",
+   "Rating": 2,
+   "Class": "Logiciels GNSS",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 15,
+   "Title": "Word",
+   "Rating": 5,
+   "Class": "Pack Office",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 16,
+   "Title": "Excel",
+   "Rating": 5,
+   "Class": "Pack Office",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 17,
+   "Title": "Power Point",
+   "Rating": 4,
+   "Class": "Pack Office",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 18,
+   "Title": "Outlook",
+   "Rating": 4,
+   "Class": "Pack Office",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 19,
+   "Title": "SpatiaLite SQLite",
+   "Rating": 2,
+   "Class": "Développement divers",
+   "UnderC diverslass": "Base de données géo",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 20,
+   "Title": "Matlab",
+   "Rating": 2,
+   "Class": "Développement divers",
+   "UnderClass": "Maths, graphiques",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 21,
+   "Title": "Excel VBA macros",
+   "Rating": 4,
+   "Class": "Développement divers",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 22,
+   "Title": "Excel TDC (Tableau croisée dynamique)",
+   "Rating": 4,
+   "Class": "Développement divers",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 23,
+   "Title": "Adobe Photoshop",
+   "Rating": 3,
+   "Class": "Design",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 24,
+   "Title": "GIMP",
+   "Rating": 2,
+   "Class": "Design",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 25,
+   "Title": "HTML5",
+   "Rating": 2,
+   "Class": "Développement Web",
+   "UnderClass": "Langages Front End",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 26,
+   "Title": "CSS3",
+   "Rating": 2,
+   "Class": "Développement Web",
+   "UnderClass": "Langages Front End",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 27,
+   "Title": "Javascript",
+   "Rating": 2,
+   "Class": "Développement Web",
+   "UnderClass": "Langages",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 28,
+   "Title": "Bootstrap",
+   "Rating": 2,
+   "Class": "Développement Web",
+   "UnderClass": "Frameworks",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 29,
+   "Title": "AngularJS",
+   "Rating": 2,
+   "Class": "Développement Web",
+   "UnderClass": "Frameworks",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 30,
+   "Title": "jQuery",
+   "Rating": 2,
+   "Class": "Développement Web",
+   "UnderClass": "Library",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 31,
+   "Title": "Visual Studio",
+   "Rating": 3,
+   "Class": "Développement Web",
+   "UnderClass": "Éditeur de texte",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 32,
+   "Title": "PHP",
+   "Rating": 2,
+   "Class": "Développement Web",
+   "UnderClass": "Langages Backend End",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 33,
+   "Title": "WordPress",
+   "Rating": 3,
+   "Class": "Développement Web",
+   "UnderClass": "",
+   "Categorie": "Compétences informatiques"
+ },
+ {
+   "ID": 34,
+   "Title": "Anglais",
+   "Rating": 4,
+   "Class": "LinguistiqueEtr",
+   "UnderClass": "",
+   "Categorie": "Compétences linguistiques"
+ },
+ {
+   "ID": 35,
+   "Title": "Allemand",
+   "Rating": 4,
+   "Class": "LinguistiqueEtr",
+   "UnderClass": "",
+   "Categorie": "Compétences linguistiques"
+ },
+ {
+   "ID": 36,
+   "Title": "Français",
+   "Rating": 4,
+   "Class": "LinguistiqueEtr",
+   "UnderClass": "",
+   "Categorie": "Compétences linguistiques"
+ },
+ {
+   "ID": 37,
+   "Title": "Roumain",
+   "Rating": 5,
+   "Class": "LinguistiqueMat",
+   "UnderClass": "",
+   "Categorie": "Compétences linguistiques"
+ },
+ {
+   "ID": 38,
+   "Title": "Coordonner l’activité d’une équipe",
+   "Rating": null,
+   "Class": "CompPro",
+   "UnderClass": "",
+   "Categorie": "Compétences pro"
+ },
+ {
+   "ID": 39,
+   "Title": "Gestion des projets",
+   "Rating": null,
+   "Class": "CompPro",
+   "UnderClass": "",
+   "Categorie": "Compétences pro"
+ },
+ {
+   "ID": 40,
+   "Title": "Vérification et contrôle qualité",
+   "Rating": null,
+   "Class": "CompPro",
+   "UnderClass": "",
+   "Categorie": "Compétences pro"
+ },
+ {
+   "ID": 41,
+   "Title": "Valorisations de l'intégration individuelle et collective",
+   "Rating": null,
+   "Class": "CompPro",
+   "UnderClass": "",
+   "Categorie": "Compétences pro"
+ },
+ {
+   "ID": 42,
+   "Title": "capacité à travailler en équipe",
+   "Rating": null,
+   "Class": "",
+   "UnderClass": "",
+   "Categorie": "Qualités"
+ },
+ {
+   "ID": 43,
+   "Title": "organisée",
+   "Rating": null,
+   "Class": "",
+   "UnderClass": "",
+   "Categorie": "Qualités"
+ },
+ {
+   "ID": 44,
+   "Title": "autonome",
+   "Rating": null,
+   "Class": "",
+   "UnderClass": "",
+   "Categorie": "Qualités"
+ },
+ {
+   "ID": 45,
+   "Title": "ambitieuse",
+   "Rating": null,
+   "Class": "",
+   "UnderClass": "",
+   "Categorie": "Qualités"
+ },
+ {
+   "ID": 46,
+   "Title": "responsable",
+   "Rating": null,
+   "Class": "",
+   "UnderClass": "",
+   "Categorie": "Qualités"
+ },
+ {
+   "ID": 47,
+   "Title": "adaptable aux environnements multiculturels grâce à l’expérience de travail à l’étranger.",
+   "Rating": null,
+   "Class": "",
+   "UnderClass": "",
+   "Categorie": "Qualités"
+ },
+ {
+   "ID": null,
+   "Title": "",
+   "Rating": null,
+   "Class": "",
+   "UnderClass": "",
+   "Categorie": ""
+ },
+ {
+   "ID": null,
+   "Title": "",
+   "Rating": null,
+   "Class": "",
+   "UnderClass": "",
+   "Categorie": ""
+ },
+ {
+   "ID": null,
+   "Title": "",
+   "Rating": null,
+   "Class": "",
+   "UnderClass": "",
+   "Categorie": ""
+ }
+]

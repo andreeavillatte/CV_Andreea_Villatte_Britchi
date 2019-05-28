@@ -1,17 +1,23 @@
 //declaration de l'app
 var coinLectureApp = angular.module('coinLectureApp', ['ngRoute', 'ngSanitize']);
 coinLectureApp.run(function ($rootScope, $http, $rootScope) {
-    //je récupère le JSON
-    $http.get("assets/json/json.json")
+    //je récupère le JSON pour competences
+        $http.get("assets/json/skills.json")
         .then(function (response) {
             // reponse.data renvoie le contenu de json.json dans la variable marques
-            $rootScope.books = response.data;
+            $rootScope.skills = response.data;
         });
-    //je créé mon tableau cartList (panier)
-    $rootScope.cartList = [];
-    $rootScope.articleCount = 0;
-    $rootScope.cartList = [];
-});
+        //je récupère le JSON pour experiences
+        $http.get("assets/json/experiences.json")
+        .then(function (response) {
+            // reponse.data renvoie le contenu de json.json dans la variable marques
+            $rootScope.experiences = response.data;
+        });
+        //Nu sterge urmatoarele patru randuri
+        $rootScope.cartList = [];
+        $rootScope.articleCount = 0;
+        $rootScope.cartList = [];
+        });
 //config des routes
 coinLectureApp.config(function ($routeProvider) {
     $routeProvider
@@ -20,17 +26,18 @@ coinLectureApp.config(function ($routeProvider) {
             templateUrl: 'assets/partials/home.html'
         })
         // dans cette route, on récupère un paramêtre : id
-        .when('/category', {
-            controller: 'categoryController',
-            templateUrl: 'assets/partials/category.html'
+
+        .when('/experiences', {
+            controller: 'experiencesController',
+            templateUrl: 'assets/partials/experiences.html'
         })
-        .when('/cart', {
-            controller: 'cartController',
-            templateUrl: 'assets/partials/cart.html'
+        .when('/competences', {
+            controller: 'competencesController',
+            templateUrl: 'assets/partials/competences.html'
         })
-        .when('/product/:id?', {
-            controller: 'productController',
-            templateUrl: 'assets/partials/product.html'
+        .when('/formation', {
+            controller: 'formationController',
+            templateUrl: 'assets/partials/formation.html'
         })
         .otherwise({
             redirectTo: '/home'
@@ -60,17 +67,8 @@ coinLectureApp.controller('mainController', function ($rootScope, $scope, $http,
                 articlePush = false;
             }
         }
-        // Si on peut l'ajouter à la liste
-        if (articlePush) {
-            // On créer un objet conportant l'id + la quantitée
-            $scope.currentArticle = { "id": ID, "quantite": 1 }
-            // On rajoute l'objet à la fin du tableau
-            $rootScope.cartList.push($scope.currentArticle);
-        }
-        console.log($rootScope.cartList)
     }
     $scope.gotoUrl = function (url) {
         $location.path(url);
     };
-    
 });

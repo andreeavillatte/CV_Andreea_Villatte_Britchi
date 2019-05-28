@@ -1,0 +1,52 @@
+ID,Title,Rating,Class,UnderClass,Categorie
+0,QGIS,4,Logiciels SIG,,Compétences informatiques
+1,ArcGIS,4,Logiciels SIG,,Compétences informatiques
+2,Microstation,2,Logiciels SIG,,Compétences informatiques
+3,Atlas,2,Logiciels SIG,,Compétences informatiques
+4,Pacific,2,Logiciels SIG,,Compétences informatiques
+5,Mercator SIG-ELEC,2,Logiciels SIG,,Compétences informatiques
+6,AutoCAD,2,Logiciels CAD,,Compétences informatiques
+7,Trimble Business Center,5,Logiciels GNSS,,Compétences informatiques
+8,Leica Geo Office Combined,5,Logiciels GNSS,,Compétences informatiques
+9,Topcon Tools,5,Logiciels GNSS,,Compétences informatiques
+10,Javad Giodis,5,Logiciels GNSS,,Compétences informatiques
+11,SkiPro,3,Logiciels GNSS,,Compétences informatiques
+12,Applanix PosPac,2,Logiciels GNSS,,Compétences informatiques
+13,Panda,2,Logiciels GNSS,,Compétences informatiques
+14,LISA,2,Logiciels GNSS,,Compétences informatiques
+15,Word,5,Pack Office,,Compétences informatiques
+16,Excel,5,Pack Office,,Compétences informatiques
+17,Power Point,4,Pack Office,,Compétences informatiques
+18,Outlook,4,Pack Office,,Compétences informatiques
+19,SpatiaLite SQLite,2,Développement divers,Base de données géo,Compétences informatiques
+20,Matlab,2,Développement divers,"Maths, graphiques",Compétences informatiques
+21,Excel VBA macros,4,Développement divers,,Compétences informatiques
+22,Excel TDC (Tableau croisée dynamique),4,Développement divers,,Compétences informatiques
+23,Adobe Photoshop,3,Design,,Compétences informatiques
+24,GIMP,2,Design,,Compétences informatiques
+25,HTML5,2,Développement Web,Langages Front End,Compétences informatiques
+26,CSS3,2,Développement Web,Langages Front End,Compétences informatiques
+27,Javascript,2,Développement Web,Langages,Compétences informatiques
+28,Bootstrap,2,Développement Web,Frameworks,Compétences informatiques
+29,AngularJS,2,Développement Web,Frameworks,Compétences informatiques
+30,jQuery,2,Développement Web,Library,Compétences informatiques
+31,Visual Studio,3,Développement Web,Éditeur de texte,Compétences informatiques
+32,PHP,2,Développement Web,Langages Backend End,Compétences informatiques
+33,WordPress,3,Développement Web,,Compétences informatiques
+34,Anglais,4,LinguistiqueEtr,,Compétences linguistiques
+35,Allemand,4,LinguistiqueEtr,,Compétences linguistiques
+36,Français,4,LinguistiqueEtr,,Compétences linguistiques
+37,Roumain,5,LinguistiqueMat,,Compétences linguistiques
+38,Coordonner l’activité d’une équipe,,CompPro,,Compétences pro
+39,Gestion des projets,,CompPro,,Compétences pro
+40,Vérification et contrôle qualité,,CompPro,,Compétences pro
+41,Valorisations de l'intégration individuelle et collective,,CompPro,,Compétences pro
+42,capacité à travailler en équipe,,Qualit,,Qualités
+43,organisée,,Qualit,,Qualités
+44,autonome,,Qualit,,Qualités
+45,ambitieuse,,Qualit,,Qualités
+46,responsable,,Qualit,,Qualités
+47,adaptable aux environnements multiculturels grâce à l’expérience de travail à l’étranger.,,Qualit,,Qualités
+,,,,,
+,,,,,
+            ,,,,,

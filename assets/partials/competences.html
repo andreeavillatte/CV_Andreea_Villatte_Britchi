@@ -1,0 +1,244 @@
+<!-- cette vue présente le détail du produit sélectionné -->
+<div class="p-2">
+    <div class="p-1">
+        <!-- Contenu du competences  -->
+        <div class="container-fluid">
+                <div class="card bg-primary text-white text-center p-3 my-3">
+                        <blockquote class="blockquote mb-0">
+                            <h2 class="heading" id="Competences">COMPETENCES</h2>
+                        </blockquote>
+                    </div>
+            <div class="row">
+                <div class="col-md-9 col-12">
+                    <!-- SIG ET GNSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS -->
+                    <div class="card-columns">
+                        <div class="card bg-primary text-white text-center p-3">
+                            <blockquote class="blockquote mb-0">
+                                <h2 class="heading" id="Competences">COMPETENCES INFORMATIQUES</h2>
+                                <footer class="blockquote-footer text-white">
+                                    <small>en géomatique / topographie</small>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Logiciels SIG</th>
+                                            <th>Niveau</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr ng-repeat="content in skills | filter:'Logiciels SIG'">
+                                            <td>{{content.Title}}</td>
+                                            <td>
+                                                <div ng-bind-html="displayStars(content.Rating)">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Logiciels GNSS</th>
+                                            <th>Niveau</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr ng-repeat="content in skills | filter:'Logiciels GNSS'">
+                                            <td>{{content.Title}}</td>
+                                            <td>
+                                                <div ng-bind-html="displayStars(content.Rating)">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Logiciels CAD</th>
+                                            <th>Niveau</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr ng-repeat="content in skills | filter:'Logiciels CAD'">
+                                            <td>{{content.Title}}</td>
+                                            <td>
+                                                <div ng-bind-html="displayStars(content.Rating)">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Design</th>
+                                            <th>Niveau</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr ng-repeat="content in skills | filter:'Design'">
+                                            <td>{{content.Title}}</td>
+                                            <td>
+                                                <div ng-bind-html="displayStars(content.Rating)">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Developppppeeeeeeeeeeeeemmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmment -->
+                    <div class="card-columns">
+                        <div class="card">
+                            <div class="card-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Développement Web</th>
+                                            <th>Niveau</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr ng-repeat="content in skills | filter:'Web'">
+                                            <td>{{content.Title}}</td>
+                                            <td>
+                                                <div ng-bind-html="displayStars(content.Rating)">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card bg-primary text-white text-center p-3">
+                            <blockquote class="blockquote mb-0">
+                                <h2 class="heading" id="Competences">COMPETENCES INFORMATIQUES</h2>
+                                <footer class="blockquote-footer text-white">
+                                    <small>en développement</small>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Développement divers</th>
+                                            <th>Niveau</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr ng-repeat="content in skills | filter:'divers'">
+                                            <td>{{content.Title}}</td>
+                                            <td>
+                                                <div ng-bind-html="displayStars(content.Rating)">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Pack Office</th>
+                                            <th>Niveau</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr ng-repeat="content in skills | filter:'Office'">
+                                            <td>{{content.Title}}</td>
+                                            <td>
+                                                <div ng-bind-html="displayStars(content.Rating)">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ASIIIIIIIIIIIIIIIIIDDDDDDDDDDDDDEEEEEEEEEEEEEE     ----------------------------      -->
+                <div class="col-md-3">
+                    <!-- Linguistiqe COMPETENCES LINGUISTIQUES-->
+                    <div class="card bg-primary text-white text-center p-3">
+                            <blockquote class="blockquote mb-0">
+                                <h2 class="heading" id="Competences">COMPETENCES LINGUISTIQUES</h2>
+                            </blockquote>
+                        </div>
+                    <div class="card my-3" id="CardAside">
+                        <div class="card-body">
+                            <table class="table">
+                                <tbody>
+                                    <tr ng-repeat="content in skills | filter:'LinguistiqueEtr'">
+                                        <td>{{content.Title}}</td>
+                                        <td>
+                                            <p><progress max="100" value="80"></progress><span> coursive</span></p>
+                                        </td>
+                                    </tr>
+                                    <tr ng-repeat="content in skills | filter:'LinguistiqueMat'">
+                                            <td>{{content.Title}}</td>
+                                            <td>
+                                                <p><progress max="100" value="100"></progress><span> langue maternelle</span></p>
+                                            </td>
+                                        </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- COMPETENCES PROFESSIONNELLES-->
+                    <div class="card bg-primary text-white text-center p-3">
+                        <blockquote class="blockquote mb-0">
+                            <h2 class="heading" id="Competences">COMPETENCES PROFESSIONNELLES</h2>
+                        </blockquote>
+                    </div>
+                    <div class="card my-3" id="CardAside">
+                        <div class="card-body">
+                            <table class="table">
+                                <tbody>
+                                    <tr ng-repeat="content in skills | filter:'CompPro'">
+                                        <td>{{content.Title}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- PUBLICATIONS & PRIX-->
+                    <div class="card bg-primary text-white text-center p-3">
+                        <blockquote class="blockquote mb-0">
+                            <h2 class="heading" id="Competences">PUBLICATIONS & PRIX</h2>
+                        </blockquote>
+                    </div>
+                    <div class="card my-3" id="CardAside">
+                        <div class="card-body">
+                            <table class="table">
+                                <tbody>
+                                    <p><span class="font-weight-bolder">1er prix Innovation</span> sur la fiabilité des bases de données ENEDIS Picardie: Automatisation des rapports mensuels du CTRL PGOC</p>
+                                    <p><span class="font-weight-bolder">Publication:</span><span class="font-italic">Instructions pratiques et méthodes de traitement des mesures GNSS -
+                                        Trimble, Leica, Topcon</span> - éditeur CNC, Bucarest, Roumanie</p>
+                              </div>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
