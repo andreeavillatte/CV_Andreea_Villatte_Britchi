@@ -21,25 +21,19 @@
   color: #FFBB12
 }
 
-/* css SEB */
 .titrePrincipal{
 font-family: 'Nanum Pen Script', cursive;
+font-size: 35px;
 }
+.MaiMic{
+  font-family: 'Nanum Pen Script';
+  font-size: 25px;
+  }
 /* Style the tab */
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-}
-.titre {
-  font-size: 20px;
-}
-.auteur {
-  font-size: 15px;
-}
-.modalSize {
-  font-size: 15px;
-  font-weight: bold;
 }
 .gray{
   background-color:#CDCDCD;
@@ -56,28 +50,7 @@ font-family: 'Nanum Pen Script', cursive;
 .test{
   border: none;
 }
-.articleCard p, .articleCard h5{
-    white-space: nowrap;
-    width: inherit;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-.articleCard img{
-    max-height: 200px;
-    max-width: 180px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.articleCard{
-    transition: .2s ease-in-out;
-}
-.articleCard:hover{
-    opacity: .8;
-    transform: scale(1.02);
-}
-.articleCard img:hover{
-    cursor: pointer;
-}
+
 .square {
   width: 300px;
   height: 300px;
@@ -236,17 +209,18 @@ font-family: 'Nanum Pen Script', cursive;
 }
 @media (max-width: 767px) {
   ul.timeline:before {
-      left: 40px;
+    display: none;
   }
   ul.timeline > li > .timeline-panel {
-      width: calc(100% - 90px);
-      width: -moz-calc(100% - 90px);
-      width: -webkit-calc(100% - 90px);
+      width: calc(100%);
+      width: -moz-calc(100%);
+      width: -webkit-calc(100%);
   }
   ul.timeline > li > .timeline-badge {
-      left: 15px;
+    display: none;
+      /* left: 15px;
       margin-left: 0;
-      top: 16px;
+      top: 16px; */
   }
   ul.timeline > li > .timeline-panel {
       float: right;
@@ -272,6 +246,10 @@ font-family: 'Nanum Pen Script', cursive;
   .container-fluid{
       overflow: hidden;
   }
+  ul {
+    list-style: none;
+    margin-left: -10px;
+  }
 }
 /* mode paysage */
 @media (orientation: landscape) {
@@ -287,7 +265,6 @@ font-family: 'Nanum Pen Script', cursive;
 }
 /* responsive pour ecran sm */
 @media all and (min-width : 576px ){
-
 }
 /* responsive pour les ecran md */
 @media all and (min-width : 768px ){
@@ -304,27 +281,11 @@ font-family: 'Nanum Pen Script', cursive;
       font-size: 2em;
   }
 }
-/* responsive pour les ecran lg */
-@media all and (min-width : 992px ){
-  #nomPrenom{
-      font-size: 4em;
-  }
-  body{
-      max-width: 1000px;
-      margin: auto;
-  }
-}
 /* responsive pour les ecran xl */
 @media all and (min-width : 1200px ){
 
 }
-
 .titlePerso {
   font-size: 18px;
   font-weight: bold;
-}
-.MaiMic {
-  font-size: 20px;
-  font-family: none;
-  text-align: center;
 }
