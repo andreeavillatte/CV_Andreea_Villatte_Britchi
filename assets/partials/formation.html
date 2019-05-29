@@ -8,7 +8,29 @@
                     <h2 class="heading" id="Competences">FORMATION</h2>
                 </blockquote>
             </div>
-            <ul class="timeline" ng-repeat="content in formation">
+            <div class="row p-3" ng-repeat="content in formation">
+                <div data-aos="{{content.AOS}}" class="card offset-md-6 col-md-4" ng-if="content.Side=='left'">
+                    <div class="card-body">
+                        <p class="font-weight-bold primary">{{content.Periode}}</p>
+                        <p class="titlePerso">{{content.MatieresCompetences}}</p>
+                        </a>
+                        <li>{{content.Certificat}}</li>
+                        <li><a href={{content.SiteInternet}}>{{content.Institution}}</a></li>
+                    </div>
+                </div>
+                <div data-aos="{{content.AOS}}" class="card offset-md-2 col-md-4" ng-if="content.Side=='right'">
+                    <div class="card-body">
+                            <p class="font-weight-bold primary">{{content.Periode}}</p>
+                            <p class="titlePerso">{{content.MatieresCompetences}}</p>
+                            </a>
+                            <li>{{content.Certificat}}</li>
+                            <li><a href={{content.SiteInternet}}>{{content.Institution}}</a></li>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <ul class="timeline" ng-repeat="content in formation">
                 <li data-aos="{{content.AOS}}" class="grow-sm">
                     <div class="timeline-badge bg3 shadow grow">
                         <a href={{content.SiteInternet}} target="_blank"><i class="fas fa-laptop-code"></i></a>
@@ -61,6 +83,6 @@
                         </div>
                     </div>
                 </li>
-            </ul>
+            </ul> -->
         </div>
     </div>
