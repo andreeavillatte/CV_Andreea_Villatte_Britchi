@@ -1,13 +1,12 @@
-<!-- cette vue présente le détail du produit sélectionné -->
 <div class="p-2">
     <div class="p-1">
         <!-- Contenu du competences  -->
         <div class="container-fluid">
-                <div class="card bg-primary text-white text-center p-3 my-3">
-                        <blockquote class="blockquote mb-0">
-                            <p>COMPETENCES</p>
-                        </blockquote>
-                    </div>
+            <div class="card bg-primary text-white text-center p-3 my-3">
+                <blockquote class="blockquote mb-0">
+                    <p>COMPETENCES</p>
+                </blockquote>
+            </div>
             <div class="row">
                 <div class="col-md-9 col-12">
                     <!-- SIG ET GNSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS -->
@@ -101,7 +100,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- Developppppeeeeeeeeeeeeemmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmment -->
                     <div class="card-columns">
                         <div class="card">
@@ -178,10 +176,10 @@
                 <div class="col-md-3">
                     <!-- Linguistiqe COMPETENCES LINGUISTIQUES-->
                     <div class="card bg-primary text-white text-center p-3">
-                            <blockquote class="blockquote mb-0">
-                                <p>COMPETENCES LINGUISTIQUES</p>
-                            </blockquote>
-                        </div>
+                        <blockquote class="blockquote mb-0">
+                            <p>COMPETENCES LINGUISTIQUES</p>
+                        </blockquote>
+                    </div>
                     <div class="card my-3" id="CardAside">
                         <div class="card-body">
                             <table class="table">
@@ -193,11 +191,12 @@
                                         </td>
                                     </tr>
                                     <tr ng-repeat="content in skills | filter:'LinguistiqueMat'">
-                                            <td>{{content.Title}}</td>
-                                            <td>
-                                                <p><progress max="100" value="100"></progress><span> langue maternelle</span></p>
-                                            </td>
-                                        </tr>
+                                        <td>{{content.Title}}</td>
+                                        <td>
+                                            <p><progress max="100" value="100"></progress><span> langue
+                                                    maternelle</span></p>
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -229,10 +228,13 @@
                         <div class="card-body">
                             <table class="table">
                                 <tbody>
-                                    <p><span class="font-weight-bolder">1er prix Innovation</span> sur la fiabilité des bases de données ENEDIS Picardie: Automatisation des rapports mensuels du CTRL PGOC</p>
-                                    <p><span class="font-weight-bolder">Publication:</span><span class="font-italic">Instructions pratiques et méthodes de traitement des mesures GNSS -
-                                        Trimble, Leica, Topcon</span> - éditeur CNC, Bucarest, Roumanie</p>
-                              </div>
+                                    <p><span class="font-weight-bolder">1er prix Innovation</span> sur la fiabilité des
+                                        bases de données ENEDIS Picardie: Automatisation des rapports mensuels du CTRL
+                                        PGOC</p>
+                                    <p><span class="font-weight-bolder">Publication:</span><span
+                                            class="font-italic">Instructions pratiques et méthodes de traitement des
+                                            mesures GNSS -
+                                            Trimble, Leica, Topcon</span> - éditeur CNC, Bucarest, Roumanie</p>
                                 </tbody>
                             </table>
                         </div>

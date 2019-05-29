@@ -1,11 +1,10 @@
-<!-- cette vue présente le détail du produit sélectionné -->
 <div class="p-2">
     <div class="p-1">
         <!-- Contenu du competences  -->
         <div class="container-fluid">
             <div class="card bg-primary text-white text-center p-3 my-3">
                 <blockquote class="blockquote mb-0">
-                    <h2 class="heading" id="Competences">FORMATION</h2>
+                    <p>FORMATION</p>
                 </blockquote>
             </div>
             <div class="row p-3" ng-repeat="content in formation">
@@ -20,69 +19,14 @@
                 </div>
                 <div data-aos="{{content.AOS}}" class="card offset-md-2 col-md-4" ng-if="content.Side=='right'">
                     <div class="card-body">
-                            <p class="font-weight-bold primary">{{content.Periode}}</p>
-                            <p class="titlePerso">{{content.MatieresCompetences}}</p>
-                            </a>
-                            <li>{{content.Certificat}}</li>
-                            <li><a href={{content.SiteInternet}}>{{content.Institution}}</a></li>
+                        <p class="font-weight-bold primary">{{content.Periode}}</p>
+                        <p class="titlePerso">{{content.MatieresCompetences}}</p>
+                        </a>
+                        <li>{{content.Certificat}}</li>
+                        <li><a href={{content.SiteInternet}}>{{content.Institution}}</a></li>
                     </div>
                 </div>
             </div>
-
-
-            <!-- <ul class="timeline" ng-repeat="content in formation">
-                <li data-aos="{{content.AOS}}" class="grow-sm">
-                    <div class="timeline-badge bg3 shadow grow">
-                        <a href={{content.SiteInternet}} target="_blank"><i class="fas fa-laptop-code"></i></a>
-                    </div>
-                    <div class="timeline-panel shadow">
-                        <div class="timeline-heading">
-                            <p class="font-weight-bold primary">{{content.Periode}}</p>
-                            <a href="{{content.SiteInternet}}" target="_blank">
-                                <h4 class="timeline-title">{{content.MatieresCompetences}}</h4>
-                            </a>
-                        </div>
-                        <div class="timeline-body">
-                            <ul>
-                                <li>{{content.Certificat}}</li>
-                                <li>{{content.Institution}}</li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted grow-sm">
-                    <div class="timeline-badge bg4 shadow grow">
-                        <a href={{content.SiteInternet}} target="_blank"><i class="fas fa-laptop-code"></i></a>
-                    </div>
-                    <div class="timeline-panel shadow">
-                        <div class="timeline-heading">
-                            <p class="font-weight-bold primary">{{content.Periode}} - {{content.Title}}</p>
-                            <a href="{{content.SiteInternet}}" target="_blank">
-                                <h4 class="timeline-title">{{content.Location}}</h4>
-                                <p>{{content.City}}, {{content.Country}}</p>
-                            </a>
-                        </div>
-                        <div class="timeline-body">
-                            <ul>
-                                <li>{{content.ShortDescription}}</li>
-                                <div ng-if="content.LongDescription!=''">
-                                    <div class="row">
-                                        <div class="p-2 offset-4 col-8 col-md-8 text-center">
-                                            <button type="button" ng-click="mytext=true">... plus</button>
-                                            <button type="button" ng-click="mytext=false">... moin</button>
-                                        </div>
-                                    </div>
-                                    <div ng-show="mytext" ng-init="mytext=false">
-                                        {{content.LongDescription}}
-                                        <div class="p-2 offset-4 col-8 col-md-8 text-center">
-                                            <button type="button" ng-click="mytext=false">... moin</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-            </ul> -->
         </div>
     </div>
+</div>
