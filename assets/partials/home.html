@@ -1,29 +1,41 @@
-<div class="p-2">
-  <div class="p-1">
-    <!-- Contenu du homme  -->
-    <div class="container-fluid">
-      <div class="card bg-primary text-white text-center p-3 my-3">
-        <blockquote class="blockquote mb-0">
-          <h2 class="heading" id="Competences">Des choses sur moi</h2>
-        </blockquote>
-      </div>
-      <div class="row p-3" ng-repeat="content in formation">
-        <div data-aos="{{content.AOS}}" class="card offset-md-6 col-md-4" ng-if="content.Side=='left'">
-          <div class="card-body">
-            <p class="font-weight-bold primary">{{content.Periode}}</p>
-            <p class="titlePerso">{{content.MatieresCompetences}}</p>
-            </a>
-            <li>{{content.Certificat}}</li>
-            <li><a href={{content.SiteInternet}}>{{content.Institution}}</a></li>
+<div>
+    <div>
+      <!-- Contenu du home  -->
+      <a href="assets/misc/20190522 CV Andreea Villatte Britchi.pdf">CV papier :)</a>
+      <div class="about section">
+          <div class="section-inner">
+            <h2 class="card-title" id="Apropos">À propos</h2>
+            <p class="card-text">
+              <ul>
+                <li>Coordonner l’activité d’une équipe</li>
+                <li>Gestion des projets</li>
+                <li>Vérification et contrôle qualité</li>
+                <li>Pilotage et conduite des projets SIG, analyse des données géographiques et gestion des bases de
+                  données</li>
+                <li>Maîtriser des techniques de gestion et de traitement des données géographiques et GNSS</li>
+                <li>Optimiser le fonctionnement et développer des outils de pilotage</li>
+                <li>Effectuer les opérations d’approbation, vérification et réception des travaux de spécialité dans
+                  le domaine de la géodésie, cartographie, topographie et photogrammétrie</li>
+                <li>Maîtriser des techniques GNSS, de nivellement géométrique de précision, d’imagerie,
+                  photogrammétrie, télédétection</li>
+                <li>Former des personnes expatriées lors d’ateliers interculturelles Roumanie-Allemagne-Autriche
+                </li>
+                <li>Valorisations de l'intégration individuelle et collective</li>
+              </ul>
+            </p>        
           </div>
-        </div>
-        <div data-aos="{{content.AOS}}" class="card offset-md-2 col-md-4" ng-if="content.Side=='right'">
-          <div class="card-body">
-            <p class="font-weight-bold primary">{{content.Periode}}</p>
-            <p class="titlePerso">{{content.MatieresCompetences}}</p>
-            </a>
-            <li>{{content.Certificat}}</li>
-            <li><a href={{content.SiteInternet}}>{{content.Institution}}</a></li>
+        </div> <!-- fin div section -->
+      <!-- Equal width cols, same on all screen sizes -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col square" id="square1">
+            <button ng-click="gotoUrl('/competences/')" type="button" class="btn btn-success">Competences</button>
+          </div>
+          <div class="col square" id="square2">
+            <button ng-click="gotoUrl('/experiences/')" type="button" class="btn btn-success">Experiences</button>
+          </div>
+          <div class="col square" id="square3">
+            <button ng-click="gotoUrl('/formation/')" type="button" class="btn btn-success">Formation</button>
           </div>
         </div>
       </div>
