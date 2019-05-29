@@ -115,7 +115,7 @@ font-family: 'Nanum Pen Script', cursive;
 }
 #imgSIG {
   background-position: right 20px bottom 10px top 100px;
-  background: url("../img/SIG.jpg") 0 no-repeat fixed;
+  background: url("../img/SIG.jpg") 0 repeat fixed;
   /* Source image https://www.dt2cadvising.com/sig.html */
   /* position: relative; */
   background-size: 100%;

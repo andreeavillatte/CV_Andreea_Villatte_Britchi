@@ -1,14 +1,19 @@
 //controller formationController
 coinLectureApp.controller('formationController', function ($scope, $rootScope, $location ,$sanitize) {
-    $scope.displayStars = function(rating){
-        var stars='';
-        for(var i = 0; i < rating; i++){
-            stars += '<i class="fas fa-star tx7"></i>';
-        }
-        var greyStar=5-i;
-        for(var i = 0; i < greyStar; i++){
-            stars += '<i class="fas fa-star tx5"></i>';
-        }        
-        return stars;
-    };
+    $(function(){
+        AOS.init({
+          easing: 'ease-in-out-sine',
+          duration: 1000,
+          once: false,
+        });
+        $(window).scroll(function () {
+          if ($(window).scrollTop() <= 80) {
+            $('nav').removeClass('solid-nav');
+            $('a').removeClass('changeColor');
+          } else {
+            $('nav').addClass('solid-nav');
+            $('a').addClass('changeColor');
+          }
+        });
+    });
 });

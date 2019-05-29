@@ -4,14 +4,20 @@ coinLectureApp.run(function ($rootScope, $http, $rootScope) {
     //je récupère le JSON pour competences
         $http.get("assets/json/skills.json")
         .then(function (response) {
-            // reponse.data renvoie le contenu de json.json dans la variable marques
+            // reponse.data renvoie le contenu de competences.json dans la variable
             $rootScope.skills = response.data;
         });
         //je récupère le JSON pour experiences
         $http.get("assets/json/experiences.json")
         .then(function (response) {
-            // reponse.data renvoie le contenu de json.json dans la variable marques
+            // reponse.data renvoie le contenu de experiences.json dans la variable
             $rootScope.experiences = response.data;
+        });
+        //je récupère le JSON pour la formation
+        $http.get("assets/json/formation.json")
+        .then(function (response) {
+            // reponse.data renvoie le contenu de json.json dans la variable
+            $rootScope.formation = response.data;
         });
         //Nu sterge urmatoarele patru randuri
         $rootScope.cartList = [];
